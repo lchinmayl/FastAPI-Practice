@@ -17,6 +17,3 @@ def createpost(payload : dict=Body(...)):
     return{"new_post":f"title:{payload['title']} content:{payload['content']}"}
 
 
-'''
-My name is sumay
-'''
