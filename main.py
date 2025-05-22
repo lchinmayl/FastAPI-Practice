@@ -15,3 +15,8 @@ def get_posts():
 def createpost(payload : dict=Body(...)):
     print(payload)
     return{"new_post":f"title:{payload['title']} content:{payload['content']}"}
+
+
+'''
+My name is sumay
+'''
